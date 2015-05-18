@@ -1,0 +1,28 @@
+姓名：劉亮谷
+系級：資訊106
+學號：F64011279
+
+compile:
+			make
+
+execution:
+			./lab5
+
+Programming environment:
+			server of pd2.imslab.org
+			about ubuntu 12.04
+
+running script:
+F64011279@2015cpp:~/lab5$ script test.script
+Script started, file is test.script
+F64011279@2015cpp:~/lab5$ make
+g++ -c main.cpp
+g++ -c HugeInt.cpp -std=c++0x
+g++ -o lab5 main.o HugeInt.o
+F64011279@2015cpp:~/lab5$ ./lab5
+1234567
+1234567 + 28825252 = 20059819
+314159265358978089279
+F64011279@2015cpp:~/lab5$ exit
+Script done, file is test.script
+
